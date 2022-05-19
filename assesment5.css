@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    text-align: center;
+  
+    background-color: yellow;
+    width: 100%;
+    min-height: 150vh;
+  }
+  .heading {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .grid_container {
+    margin: auto;
+    margin-top: 5%;
+    padding-bottom: 5%;
+    width: 60%;
+    display: grid;
+    grid-template-columns: 30px 150px 150px 150px;
+    grid-template-rows: 120px 120px 120px 120px;
+    gap: 50px 80px;
+  }
+  .griditem {
+    background-color: aqua;
+    padding: 10px;
+    font-size: 24px;
+    border: 2px solid red;
+  }
+  .item1 {
+    border: none;
+    background-color: yellow;
+    position: relative;
+    bottom: 0;
+  }
+  .item2 {
+    background-color: rgb(192, 211, 227);
+    animation: item2 infinite 2s alternate-reverse;
+  }
+  @keyframes item2 {
+    from {
+      transform: rotate(10deg);
+    }
+    to {
+      transform: rotate(-10deg);
+    }
+  }
+  .item3 {
+    animation: item3 infinite 3s 1s alternate-reverse;
+  
+    background-color: cadetblue;
+  }
+  @keyframes item3 {
+    from {
+      transform: rotate(40deg);
+    }
+    to {
+      transform: rotate(-40deg);
+    }
+  }
+  .item4 {
+    animation: item4 infinite 20s 1s linear;
+  
+    background-color: rgb(40, 153, 197);
+  }
+  @keyframes item4 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(3600deg);
+    }
+  }
+  .item5 {
+    animation: item5 infinite 3s 1s alternate-reverse;
+    background-color: rgb(40, 153, 197);
+  }
+  @keyframes item5 {
+    from {
+      width: 50px;
+    }
+    to {
+      width: 150px;
+    }
+  }
+  .item6 {
+    height: 100px;
+    animation: item6 infinite 5s 1s alternate-reverse;
+    background-color: brown;
+  }
+  @keyframes item6 {
+    from {
+      margin-top: 50px;
+      padding-bottom: 0;
+    }
+    to {
+      margin-top: 0px;
+      padding-bottom: 20px;
+    }
+  }
+  a {
+    font-size: 20px;
+  }
+  .main_container {
+    width: 50%;
+    margin-left: 25%;
+  }
+  .i1 {
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 120px;
+    height: 100px;
+    background-color: aqua;
+    /* border: 1px solid red; */
+    display: inline-block;
+    background-color: rgb(192, 211, 227);
+    animation: item2 infinite 2s alternate-reverse;
+  }
+  @keyframes item2 {
+    from {
+      transform: rotate(10deg);
+    }
+    to {
+      transform: rotate(-10deg);
+    }
+  }
+  .li2 {
+    animation: item3 infinite 3s 1s alternate-reverse;
+  
+    background-color: cadetblue;
+  }
+  @keyframes item3 {
+    from {
+      transform: rotate(40deg);
+    }
+    to {
+      transform: rotate(-40deg);
+    }
+  }
+  .li3 {
+    animation: item4 infinite 20s 1s linear;
+  
+    background-color: rgb(40, 153, 197);
+  }
+  @keyframes item4 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(3600deg);
+    }
+  }
+  .li4 {
+    animation: item5 infinite 3s 1s alternate-reverse;
+    background-color: rgb(40, 153, 197);
+  }
+  @keyframes item5 {
+    from {
+      width: 50px;
+    }
+    to {
+      width: 150px;
+    }
+  }
+  .li6 {
+    height: 100px;
+    animation: item6 infinite 5s 1s alternate-reverse;
+    background-color: brown;
+  }
+  @keyframes item6 {
+    from {
+      margin-top: 50px;
+      padding-bottom: 0;
+    }
+    to {
+      margin-top: 0px;
+      padding-bottom: 20px;
+    }
+  }
+  
