@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  .header {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(./Image1.jpeg);
+    background-position: relative;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .top {
+    position: relative;
+    padding-top: 30px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  .left_icon {
+    background-image: url(./logo.png);
+    background-position: relative;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 8%;
+    width: 60%;
+  }
+  .topbar {
+    position: relative;
+    width: 40%;
+    right: 8%;
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  .material-icons {
+    position: relative;
+    color: white;
+  }
+  .middle_container {
+    color: white;
+    top: 40px;
+    position: relative;
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  #sahara {
+    font-size: 102px;
+    font-weight: bold;
+  }
+  p {
+    margin: 0;
+    padding-bottom: 20px;
+  }
+  .middleLeft {
+    left: 40px;
+    position: relative;
+    width: 40%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .middleRight {
+    right: 40px;
+    position: relative;
+    width: 35%;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .Rightmiddle {
+    display: none;
+  }
+  button {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    padding-inline: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .box1 {
+    background-image: url(./image4.jpeg);
+  }
+  .box2 {
+    background-image: url(./image5.jpeg);
+  }
+  .box3 {
+    background-image: url(./Image2.jpeg);
+  }
+  .box {
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    width: 200px;
+    height: 200px;
+    background-position: absolute;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    position: relative;
+  }
+  .box4 {
+    background-image: url(./image3.jpeg);
+  }
+  .box:hover {
+    transform: translateY(-10px);
+  }
+  button:hover {
+    height: 32px;
+    font-size: 18px;
+  }
+  @media (min-width: 100px) and (max-width: 650px) {
+    a {
+      display: none;
+    }
+    .header {
+      min-height: 220vh;
+    }
+    .left_icon {
+      position: relative;
+      left: 8%;
+      width: 85%;
+    }
+    .topbar {
+      position: relative;
+      width: 15%;
+      right: 0px;
+    }
+    .middleRight {
+      display: none;
+    }
+    .middle_container {
+      position: relative;
+      top: 0;
+    }
+    .middleLeft {
+      text-align: justify;
+      left: 0px;
+      position: relative;
+      width: 90%;
+      margin: auto;
+    }
+    .Rightmiddle {
+      display: block;
+      height: 150vh;
+    }
+    .box {
+      padding-top: 10px;
+      margin: auto;
+      width: 96%;
+    }
+    .box1 {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .box3 {
+      margin-top: 20px;
+    }
+    #sahara {
+      font-size: 50px;
+    }
+  }
+  @media (min-width: 651px) and (max-width: 1150px) {
+    .header {
+      min-height: 150vh;
+    }
+    p {
+      font-size: 20px;
+    }
+    .middle_container {
+      color: white;
+      top: 40px;
+      position: relative;
+      height: 75vh;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+    }
+    .middleLeft {
+      left: 0px;
+      position: relative;
+      width: 40%;
+      margin: auto;
+    }
+    .middleRight {
+      width: 50%;
+      display: block;
+    }
+    .box {
+      height: 180px;
+      padding-top: 2px;
+      margin: auto;
+      width: 96%;
+    }
+    #sahara {
+      font-size: 62px;
+      font-weight: bold;
+    }
+    .box2 {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .box3 {
+      margin-top: 20px;
+    }
+    .box4 {
+      margin-top: 20px;
+    }
+  }
+  
